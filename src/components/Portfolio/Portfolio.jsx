@@ -21,7 +21,7 @@ const projectData = [
     title: "React Calculator",
     image: ReactCalculator,
     github: "https://github.com/VaibhavMali001",
-    demo: "https://github.com/VaibhavMali001",
+    demo: "https://calculator-react-ob7z2ef7k-vaibhav-malis-projects.vercel.app",
   },
   {
     id: 3,
