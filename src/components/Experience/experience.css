@@ -1,0 +1,96 @@
+.skills__details {
+  /* border: 1px solid var(--color-light);  */
+  padding: 12px; /* Add padding to adjust the spacing between the border and the icon */
+  display: flex; /* Use flex container */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  width: 100px;
+  height: 100px;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 5px;
+  transition: var(--transition);
+  background: var(--color-bg);
+  border: 1px solid var(--color-primary);
+}
+.skills__frontend, .skills__tools{
+  height: 450px;
+}
+.skills-page {
+  padding-top: 6.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 60vh; */
+}
+/* .skills__details:hover {
+  background: var(--color-bg);
+  border: 1px solid var(--color-primary);
+} */
+.react-icon {
+  color: var(--color-primary);
+}
+.skills__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.skills__container > div {
+  height: auto;
+  background: var(--color-bg);
+  padding: 2.4rem 5rem;
+  border-radius: 1.5rem;
+  border: 1.5px solid var(--color-primary);
+  transition: var(--transition);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.skills__container > div:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, var(--color-primary-variant) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transform: translateY(-9px);
+}
+
+.skills__container > div > h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.skills__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* MEDIA QUERIES MEDIUM */
+@media screen and (max-width: 1024px) {
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .skills__content {
+    padding: 1rem;
+  }
+}
+
+/* MEDIA QUERIES SMALL */
+@media screen and (max-width: 600px) {
+  .skills__container {
+    gap: 1rem;
+  }
+  .skills__container > div {
+    width: 100%;
+  }
+  .skills__frontend, .skills__tools{
+    height: auto;
+  }
+}

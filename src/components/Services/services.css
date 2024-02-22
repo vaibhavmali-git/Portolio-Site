@@ -1,0 +1,64 @@
+.experience-container{
+    padding-top: 5rem;
+
+    margin-left: 11rem;
+    margin-right: 11rem;
+    position: relative;
+
+}
+
+.arrow-left, .arrow-right{
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    border: 1.5px solid var(--color-primary);
+    border-radius: 0.65rem;
+    padding: 1.6rem;
+    position: absolute;
+    top: 55%;
+    z-index: 2;
+    cursor: pointer;
+    background: var(--color-bg);
+}
+
+.arrow-left span, .arrow-right span{
+    font-weight: 500;
+}
+
+.arrow-left{
+    left: -4rem;
+}
+.arrow-right{
+    right: -4rem;
+}
+
+/* MEDIA QUERIES MEDIUM */
+@media screen and (max-width: 1024px) {
+    .experience-container{
+        margin: 1.5rem 1.5rem;
+    }
+
+    .arrow-left{
+        left: 0rem;
+    }
+    .arrow-right{
+        right: 0rem;
+    }
+
+}
+
+/* MEDIA QUERIES SMALL */
+@media screen and (max-width: 600px) {
+    .experience-container{
+        margin: 1rem 1rem;
+    }
+    .arrow-left{
+        left: 0rem;
+    }
+    .arrow-right{
+        right: 0rem;
+    }
+}
