@@ -19,7 +19,7 @@ nav a{
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    font-size: 1.1rem;
+    font-size: 0.98rem;
     color: var(--color-light);
 }
 nav a:hover{
