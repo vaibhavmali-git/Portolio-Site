@@ -17,8 +17,7 @@
   padding: 1.7rem;
   border-radius: 2rem;
   transition: var(--transition);
-  border: 1.5px solid var(--color-primary);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(255, 255, 255, 0.211) 0px 0px 0px 1px;
 }
 
 .portfolio__item:hover {

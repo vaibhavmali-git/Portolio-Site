@@ -42,9 +42,9 @@
   background: var(--color-bg);
   padding: 2.4rem 5rem;
   border-radius: 1.5rem;
-  border: 1.5px solid var(--color-primary);
+  /* border: 1.5px solid var(--color-primary); */
   transition: var(--transition);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(255, 255, 255, 0.234) 0px 0px 0px 1px;
 }
 
 .skills__container > div:hover{

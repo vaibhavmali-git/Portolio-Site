@@ -28,7 +28,7 @@
   background: var(--color-bg);
   padding: 1.2rem;
   border-radius: 1.2rem;
-  border: 1px solid var(--color-primary);
+  border: 0.1px solid var(--color-primary);
   transition: var(--transition);
 }
 .contact__option:hover{
@@ -54,7 +54,7 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: var(--color-bg);
-  border: 2px solid var(--color-primary);
+  border: 0.1px solid var(--color-primary);
   resize: none;
   font-family: "Space Mono", monospace;
   color: var(--color-light);

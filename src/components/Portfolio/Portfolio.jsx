@@ -7,8 +7,16 @@ import AlarmWebApp from '../../assets/alarm-web-app.png'
 import RecipeCataloge from '../../assets/recipe-cataloge.png'
 import YoutubeClone from '../../assets/Youtube-clone.png'
 import "./portfolio.css";
+import podcastpng from "../../assets/podcast.png"
 
 const projectData = [
+  {
+    id: 8,
+    title: "Podcast Platform",
+    image: podcastpng,
+    github: "https://github.com/VaibhavMali001/podcasts-react-app",
+    demo: "https://podcast-react-vaibhav.netlify.app/",
+  },
   {
     id: 1,
     title: "Google sheet clone",
@@ -51,6 +59,7 @@ const projectData = [
     github: "https://github.com/VaibhavMali001/youtube-clone-f3",
     demo: "https://vaibhavmali001.github.io/youtube-clone-f3/",
   },
+
 ];
 
 function Portfolio() {

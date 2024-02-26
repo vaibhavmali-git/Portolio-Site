@@ -18,9 +18,9 @@ function Header() {
         
         <div className="me">
           <img src={ME} alt="me" />
-          <div className="current-project">
+          {/* <div className="current-project">
           //Currently working on Portfolio Project
-        </div>
+        </div> */}
         </div>
        
 

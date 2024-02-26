@@ -20,7 +20,7 @@
 :root {
     --color-bg: linear-gradient(135deg, #1a1a2e, #1d1c34, #3a3741);
     --color-bg-variant: #2d2b4d;
-    --color-primary: #6350d1;
+    --color-primary: #6f7ac8;
     --color-primary-variant: #473d6b;
     --color-white: #fff;
     --color-light: #b1afd1;
@@ -94,11 +94,11 @@ a:hover{
 .btn{
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: #435c96;
     padding: 0.5rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid #3a469f;
     transition: var(--transition);
     font-family: "Space Mono", monospace;
 }
@@ -110,7 +110,7 @@ a:hover{
 }
 
 .btn-primary{
-    background-color: var(--color-primary);
+    background-color: #435c96;
     color: var(--color-bg);
 }
 
@@ -119,6 +119,7 @@ img{
     display: block;
     width: 100%;
     object-fit: cover; 
+    border-radius: 1.2rem;
 }
 
 /* MEDIA QUERIES MEDIUM */

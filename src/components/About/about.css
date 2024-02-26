@@ -30,6 +30,7 @@
 
 
 .about__me-image{
+
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
@@ -44,6 +45,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    
 }
 
 .about__card{
@@ -52,8 +54,8 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
-    border: 1.5px solid var(--color-primary);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* border: 1.5px solid var(--color-primary); */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(255, 255, 255, 0.115) 0px 0px 0px 1px;
 }
 
 .about__card:hover{
