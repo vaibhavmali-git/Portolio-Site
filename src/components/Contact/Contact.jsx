@@ -43,7 +43,7 @@ function Contact() {
               </span>
               <h5>malivaibhav.7620@gmail.com</h5>
             </div>
-            <a href="mailto:malivaibhav.7620@gmail.com" target="_blank">
+            <a href="mailto:malivaibhav.7620@gmail.com">
               Send a message via mail
             </a>
           </article>

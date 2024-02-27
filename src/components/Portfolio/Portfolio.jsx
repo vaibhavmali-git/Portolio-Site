@@ -18,19 +18,27 @@ const projectData = [
     demo: "https://podcast-react-vaibhav.netlify.app/",
   },
   {
+    id: 2,
+    title: "React Calculator",
+    image: ReactCalculator,
+    github: "https://github.com/VaibhavMali001/calculator-react",
+    demo: "https://react-calculator-vaibhav.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Youtube Clone",
+    image: YoutubeClone,
+    github: "https://github.com/VaibhavMali001/youtube-clone-f3",
+    demo: "https://vaibhavmali001.github.io/youtube-clone-f3/",
+  },
+  {
     id: 1,
     title: "Google sheet clone",
     image: GoogleSheet,
     github: "https://github.com/VaibhavMali001/google-shhet-clone",
     demo: "https://vaibhavmali001.github.io/google-shhet-clone/",
   },
-  {
-    id: 2,
-    title: "React Calculator",
-    image: ReactCalculator,
-    github: "https://github.com/VaibhavMali001",
-    demo: "https://calculator-react-ob7z2ef7k-vaibhav-malis-projects.vercel.app",
-  },
+ 
   {
     id: 3,
     title: "Weather API",
@@ -52,13 +60,7 @@ const projectData = [
     github: "https://github.com/VaibhavMali001/module-2-contest-recipe-catalogue",
     demo: "https://vaibhavmali001.github.io/module-2-contest-recipe-catalogue/",
   },
-  {
-    id: 7,
-    title: "Youtube Clone",
-    image: YoutubeClone,
-    github: "https://github.com/VaibhavMali001/youtube-clone-f3",
-    demo: "https://vaibhavmali001.github.io/youtube-clone-f3/",
-  },
+ 
 
 ];
 
