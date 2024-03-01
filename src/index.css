@@ -45,6 +45,7 @@ body {
   /* font-family: "JetBrains Mono", monospace; */
   font-family: "Space Mono", monospace;
   background: url("./assets/bg-image.jpg");
+  background-position:bottom;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply; /* This can help blend the gradient with the background image */
   color: var(--color-white);
@@ -156,8 +157,8 @@ input, textarea{
 }
 
 .portfolio-page{
-  background: url("./assets/bg-image2.jpg"),rgba(0, 0, 0, 0.9);
-  padding-bottom: 9rem;
+  /* background: url("./assets/bg-image2.jpg"); */
+  /* padding-bottom: 9rem; */
 }
 
 /* MEDIA QUERIES MEDIUM */
