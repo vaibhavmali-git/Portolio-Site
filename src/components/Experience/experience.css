@@ -8,10 +8,13 @@
   height: 100px;
   flex-direction: column;
   gap: 0.5rem;
-  border-radius: 5px;
   transition: var(--transition);
-  background: var(--color-bg);
   border: 1px solid var(--color-primary);
+  background: rgba(255, 255, 255, 0.042);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 0.7rem;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .skills__frontend, .skills__tools{
   height: 450px;
@@ -39,12 +42,16 @@
 
 .skills__container > div {
   height: auto;
-  background: var(--color-bg);
   padding: 2.4rem 5rem;
   border-radius: 1.5rem;
   /* border: 1.5px solid var(--color-primary); */
+  background: rgba(255, 255, 255, 0.042);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 1rem;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   transition: var(--transition);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(255, 255, 255, 0.234) 0px 0px 0px 1px;
+  padding-bottom: 7rem;
 }
 
 .skills__container > div:hover{

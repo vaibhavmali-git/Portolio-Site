@@ -8,14 +8,14 @@ import {BsDribbble} from 'react-icons/bs'
 function Footer() {
   return (
     <footer>
-      <a href="#" className="footer__logo">&lt;Vaibhav<code>/&gt;</code></a>
+      <a href="#" className="footer__logo a-hover">&lt;Vaibhav<code>/&gt;</code></a>
      <ul className="permalinks"> 
-      <li><a href="#"><span>#Home</span></a></li>
-      <li><a href="#about"><span>#About</span></a></li>
-      <li><a href="#skills"><span>#Skills</span></a></li>
-      <li><a href="#services"><span>#Education</span></a></li>
-      <li><a href="#portfolio"><span>#Portfolio</span></a></li>
-      <li><a href="#contact"><span>#Contact</span></a></li>
+      <li><a className="a-hover" href="#"><span>#Home</span></a></li>
+      <li><a className="a-hover" href="#about"><span>#About</span></a></li>
+      <li><a className="a-hover" href="#skills"><span>#Skills</span></a></li>
+      <li><a className="a-hover" href="#services"><span>#Education</span></a></li>
+      <li><a className="a-hover" href="#portfolio"><span>#Portfolio</span></a></li>
+      <li><a className="a-hover" href="#contact"><span>#Contact</span></a></li>
 </ul>
       <div className="footer__socials">
       <a href="https://linkedin.com/in/vaibhav-mali-841779218" target='_blank'><BsLinkedin size={16}/></a>

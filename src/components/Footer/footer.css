@@ -4,6 +4,10 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 7rem;
+  background: rgba(255, 255, 255, 0.042);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 footer a {
@@ -46,6 +50,10 @@ footer a {
 
 .footer-name {
   font-weight: 800;
+}
+
+small{
+  color: var(--color-light);
 }
 
 @media screen and (max-width: 600px) {

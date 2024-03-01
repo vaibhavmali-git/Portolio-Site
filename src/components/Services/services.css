@@ -3,7 +3,7 @@
     margin-left: 11rem;
     margin-right: 11rem;
     position: relative;
-
+    /* background: var(--color-bg); */
 }
 
 .arrow-left, .arrow-right{

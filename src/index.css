@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
   margin: 0;
@@ -11,19 +11,19 @@
   list-style: none;
   text-decoration: none;
   -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 :root {
-    --color-bg: linear-gradient(135deg, #1a1a2e, #1d1c34, #3a3741);
-    --color-bg-variant: #2d2b4d;
-    --color-primary: #6f7ac8;
-    --color-primary-variant: #473d6b;
-    --color-white: #fff;
-    --color-light: #b1afd1;
+  --color-bg: #001f3f;
+  --color-bg-variant: #2d2b4d;
+  --color-primary: #6f7ac8;
+  --color-primary-variant: #473d6b;
+  --color-white: #fff;
+  --color-light: #b1afd1;
 
   --transition: all 400ms ease;
 
@@ -44,107 +44,143 @@ body {
   /* font-family: "Fira Code", monospace; */
   /* font-family: "JetBrains Mono", monospace; */
   font-family: "Space Mono", monospace;
-  background: var(--color-bg), url(../src/assets/bg-texture.png);
+  background: url("./assets/bg-image.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply; /* This can help blend the gradient with the background image */
   color: var(--color-white);
-  line-height: 1.7; 
+  line-height: 1.7;
+  letter-spacing: 0.05rem;
 }
 
 /* ============== GENERAL STYLES ============ */
-.container{
-    width: var(--container-width-lg);
-    margin: 0 auto;
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
 }
 
-h1, h2 ,h3, h4, h5{
-    font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  transition: var(--transition);
 }
 
-h1{
-    font-size: 2.5rem;
+h2:hover{
+  letter-spacing: 0.4rem;
 }
 
-section{
-    margin-bottom: 3rem;
+h1 {
+  font-size: 2.5rem;
 }
 
-section > h2, section > h5{
-    text-align: center;
+section {
+  margin-bottom: 3rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.a-hover{
+  transition: var(--transition);
+}
+.a-hover:hover{
+  letter-spacing: 0.5rem;
+}
+.h1-hover{
+  transition: var(--transition);
+}
+.h1-hover:hover{
+  letter-spacing: 0.5rem;
+}
+.btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: "Space Mono", monospace;
+  background: rgba(255, 255, 255, 0.042);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 0.5rem;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.btn:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, var(--color-primary-variant) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background: rgba(47, 37, 100, 0.086);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     color: var(--color-light);
 }
 
-section > h2{
-    color: var(--color-primary);
-    margin-bottom: 3rem;
+img {
+  filter: drop-shadow(0.35rem 0.35rem 1.5rem rgba(73, 46, 120, 0.2));
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.9rem;
 }
 
-.text-light{
-    color: var(--color-light);
+input, textarea{
+  transition: var(--transition);
 }
 
-a{
-    color: var(--color-primary);
-    transition: var(--transition);
-}
-
-a:hover{
-    color: var(--color-white);
-}
-
-.btn{
-    width: max-content;
-    display: inline-block;
-    color: #435c96;
-    padding: 0.5rem 1.2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    border: 1px solid #3a469f;
-    transition: var(--transition);
-    font-family: "Space Mono", monospace;
-}
-
-.btn:hover{
-    background-color: var(--color-bg-variant);
-    color: var(--color-bg);
-    border-color: transparent;
-}
-
-.btn-primary{
-    background-color: #435c96;
-    color: var(--color-bg);
-}
-
-img{
-    filter: drop-shadow(0.35rem 0.35rem 1.5rem rgba(73, 46, 120, 0.37)); 
-    display: block;
-    width: 100%;
-    object-fit: cover; 
-    border-radius: 1.2rem;
+.portfolio-page{
+  background: url("./assets/bg-image2.jpg"),rgba(0, 0, 0, 0.9);
+  padding-bottom: 9rem;
 }
 
 /* MEDIA QUERIES MEDIUM */
 
 @media screen and (max-width: 1024px) {
-    .container{
-        width: var(--container-width-md);
-    }
-    section{
-        margin-top: 1rem;
-    }
-
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 1rem;
+  }
 }
 
 /* MEDIA QUERIES SMALLL */
 
 @media screen and (max-width: 600px) {
-    .container{
-        width: var(--container-width-sm);
-    }
-    section > h2{
-        margin-bottom: 2rem;
-    }
-    h1{
-        font-size: 1.3rem;
-    }
-
+  .container {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
 }

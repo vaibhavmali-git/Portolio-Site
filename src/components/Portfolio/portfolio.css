@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(0, 0, 0, 0.2); */
 }
 .portfolio__container {
   display: grid;
@@ -13,11 +12,13 @@
 }
 
 .portfolio__item {
-  background: var(--color-bg);
   padding: 1.7rem;
-  border-radius: 2rem;
   transition: var(--transition);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(255, 255, 255, 0.211) 0px 0px 0px 1px;
+  background: rgba(255, 255, 255, 0.042);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 1rem;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .portfolio__item:hover {
@@ -28,7 +29,7 @@
 }
 
 .portfolio_item-image {
-  border-radius: 1.5rem;
+  border-radius:0.6rem;
   overflow: hidden;
 }
 
