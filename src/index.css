@@ -45,9 +45,10 @@ body {
   /* font-family: "JetBrains Mono", monospace; */
   font-family: "Space Mono", monospace;
   background: url("./assets/bg-image.jpg");
-  background-position:bottom;
+  background-size: cover; 
+  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.6);
-  background-blend-mode: multiply; /* This can help blend the gradient with the background image */
+  background-blend-mode: multiply; 
   color: var(--color-white);
   line-height: 1.7;
   letter-spacing: 0.05rem;
