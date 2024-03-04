@@ -21,7 +21,7 @@ function Experience() {
 
     <div className="container skills__container">
       <div className="skills__frontend">
-        <h3>&lt;Technologies <code>/&gt;</code></h3>
+        <h3>&lt;Web Technologies <code>/&gt;</code></h3>
         <div className="skills__content">
           <article className="skills__details">
             <SiReact className="react-icon" size={60} />
@@ -89,6 +89,7 @@ function Experience() {
             <SiVercel  className="react-icon" size={60} />
             <p>Vercel</p>
           </article>
+          
 
         </div>
       </div>

@@ -10,6 +10,7 @@ const ServiceCard = ({details}) => {
         <h6>{details.title}</h6>
         <h6>{details.collegeName}</h6>
         <div className="work-duration">{details.date}</div>
+        <br />
         {details.percentage && (
        
           <div className="work-duration">{details.percentage}</div>

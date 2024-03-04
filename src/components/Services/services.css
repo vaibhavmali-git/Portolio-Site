@@ -13,16 +13,25 @@
     align-items: center;
     justify-content: center;
     color: var(--color-primary);
-    border: 1.5px solid var(--color-primary);
-    border-radius: 0.65rem;
     padding: 1.6rem;
     position: absolute;
     top: 55%;
     z-index: 2;
     cursor: pointer;
     background: var(--color-bg);
+    background: rgba(255, 255, 255, 0.042);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 0.6rem;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: var(--transition);
 }
-
+.arrow-right:hover{
+    transform: translateY(-5px);
+}
+.arrow-left:hover{
+    transform: translateY(-5px);
+}
 .arrow-left span, .arrow-right span{
     font-weight: 500;
 }

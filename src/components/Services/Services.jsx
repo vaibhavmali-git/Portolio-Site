@@ -4,6 +4,8 @@ import ServiceCard from "./ServiceCard/ServiceCard";
 import { useRef } from "react";
 import Slider from "react-slick";
 import "./services.css";
+import { MdNavigateNext } from "react-icons/md";
+import { GrFormPrevious } from "react-icons/gr";
 
 function Services() {
   const sliderRef = useRef();
@@ -39,10 +41,10 @@ function Services() {
 
       <div className="experience-content">
         <div className="arrow-right" onClick={slideRight}>
-          <span className="material-symbols-outlined">next</span>
+          <span className="material-symbols-outlined"><MdNavigateNext size={23}/></span>
         </div>
         <div className="arrow-left" onClick={slideLeft}>
-          <span className="material-symbols-outlined">prev</span>
+          <span className="material-symbols-outlined"><GrFormPrevious size={23}/></span>
         </div>
         <Slider ref={sliderRef} {...settings}>
           {EDUCATION.map((item) => (
