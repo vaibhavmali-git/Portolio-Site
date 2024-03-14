@@ -29,14 +29,14 @@ const projectData = [
     title: "Youtube Clone",
     image: YoutubeClone,
     github: "https://github.com/VaibhavMali001/youtube-clone-f3",
-    demo: "https://vaibhavmali001.github.io/youtube-clone-f3/",
+    demo: "https://vaibhav-youtube-clone.netlify.app/",
   },
   {
     id: 1,
     title: "Google sheet clone",
     image: GoogleSheet,
     github: "https://github.com/VaibhavMali001/google-shhet-clone",
-    demo: "https://vaibhavmali001.github.io/google-shhet-clone/",
+    demo: "https://vaibhavmali-excelbook.netlify.app/",
   },
  
   {
@@ -44,21 +44,21 @@ const projectData = [
     title: "Weather API",
     image: WeatherApi,
     github: "https://github.com/VaibhavMali001/weather-api",
-    demo: "https://vaibhavmali001.github.io/weather-api/",
+    demo: "https://vaibhavmali-weatherr-api.netlify.app/",
   },
   {
     id: 4,
     title: "Alarm Web App",
     image: AlarmWebApp,
     github: "https://github.com/VaibhavMali001/alarm-web-app-f3c1",
-    demo: "https://vaibhavmali001.github.io/alarm-web-app-f3c1/",
+    demo: "https://vaibhav-alarm-web-app.netlify.app/",
   },
   {
     id: 5,
     title: "Recipe Cataloge",
     image: RecipeCataloge,
     github: "https://github.com/VaibhavMali001/module-2-contest-recipe-catalogue",
-    demo: "https://vaibhavmali001.github.io/module-2-contest-recipe-catalogue/",
+    demo: "https://vaibhav-recipe-cataloge.netlify.app/",
   },
  
 
