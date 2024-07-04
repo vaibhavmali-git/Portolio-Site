@@ -23,7 +23,6 @@ export const EDUCATION = [
     {
       title: "Class 12",
       collegeName: "A.R.B Garud College, Shendurni",
-      percentage: "Percentage: 66.92%",
       date: "06/2019 - 02/2020",
       responsibilities: [
         "Completed Class 12th in Science stream with a focus on physics, chemistry, and mathematics.",
@@ -34,7 +33,6 @@ export const EDUCATION = [
     {
       title: "10th Grade",
       collegeName: "Dr.J.G Pandit madhyamik Vidyalaya, Lohara",
-      percentage: "Percentage: 84.61%",
       date: "03/2018",
       responsibilities: [
         "Secured 84.61% in the 10th-grade board examinations.",
